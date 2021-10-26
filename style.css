@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    background:hsl(100, 90%, 20%)
+}
+
+header, footer{
+height: 20vh;
+background: hsl(100, 90%, 70%);
+}
+
+main{
+    background: white;
+    width: 70vw;
+    min-height: 60vh;
+    margin: 0 auto;
+}
+
+#currentTime{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: .5rem;
+}
+
+input, button{
+    width: calc(100% - 3.2rem);
+    height: 2.2rem;
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding: .2rem;
+}
+
+#error, #thanks{
+    text-align: center;
+}
+
+#error{
+    color: red;
+}
